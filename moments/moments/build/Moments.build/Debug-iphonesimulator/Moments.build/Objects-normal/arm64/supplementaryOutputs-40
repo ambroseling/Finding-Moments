@@ -1,0 +1,18 @@
+"/Users/ambroseling/Downloads/Capturing Photos.swiftpm/App/CachedImageManager.swift":
+  swift-dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/CachedImageManager.swiftdeps"
+  diagnostics: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/CachedImageManager.dia"
+  dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/CachedImageManager.d"
+  object: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/CachedImageManager.o"
+  const-values: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/CachedImageManager.swiftconstvalues"
+"/Users/ambroseling/Downloads/Capturing Photos.swiftpm/App/CameraView.swift":
+  object: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/CameraView.o"
+  dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/CameraView.d"
+  const-values: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/CameraView.swiftconstvalues"
+  diagnostics: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/CameraView.dia"
+  swift-dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/CameraView.swiftdeps"
+"/Users/ambroseling/Downloads/Capturing Photos.swiftpm/App/PhotoItemView.swift":
+  dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/PhotoItemView.d"
+  object: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/PhotoItemView.o"
+  const-values: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/PhotoItemView.swiftconstvalues"
+  diagnostics: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/PhotoItemView.dia"
+  swift-dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/PhotoItemView.swiftdeps"

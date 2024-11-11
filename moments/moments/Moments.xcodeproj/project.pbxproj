@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210B9F6A2CE1794D0062A5F5 /* CLIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210B9F692CE1794D0062A5F5 /* CLIP.swift */; };
+		210B9F6F2CE17EE00062A5F5 /* CLIPTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210B9F6E2CE17EE00062A5F5 /* CLIPTokenizer.swift */; };
+		212478C32CE12F8B00D9EF85 /* CLIP_Text_Encoder_s0.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 212478C12CE12F8A00D9EF85 /* CLIP_Text_Encoder_s0.mlpackage */; };
+		212478C42CE12F8B00D9EF85 /* CLIP_Image_Encoder_s0.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 212478C22CE12F8B00D9EF85 /* CLIP_Image_Encoder_s0.mlpackage */; };
 		21ADAB3B2CD199550025A919 /* MomentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADAB3A2CD199550025A919 /* MomentsApp.swift */; };
 		21ADAB3D2CD199550025A919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADAB3C2CD199550025A919 /* ContentView.swift */; };
 		21ADAB3F2CD199570025A919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21ADAB3E2CD199570025A919 /* Assets.xcassets */; };
@@ -28,6 +32,11 @@
 		21ADAB7B2CD199D30025A919 /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADAB722CD199D30025A919 /* PhotoCollectionView.swift */; };
 		21ADAB7D2CD199DE0025A919 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ADAB7C2CD199DE0025A919 /* DataModel.swift */; };
 		21CAC5102CD1A70F0096CBCE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CAC50F2CD1A70F0096CBCE /* HomeView.swift */; };
+		21D7C35F2CE1ABA0006515EA /* ComplexModule in Frameworks */ = {isa = PBXBuildFile; productRef = 21D7C35E2CE1ABA0006515EA /* ComplexModule */; };
+		21D7C3612CE1ABA0006515EA /* Numerics in Frameworks */ = {isa = PBXBuildFile; productRef = 21D7C3602CE1ABA0006515EA /* Numerics */; };
+		21D7C3632CE1ABA0006515EA /* RealModule in Frameworks */ = {isa = PBXBuildFile; productRef = 21D7C3622CE1ABA0006515EA /* RealModule */; };
+		21D7C3662CE1B0CB006515EA /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = 21D7C3652CE1B0CB006515EA /* vocab.json */; };
+		21D7C3682CE1B0D2006515EA /* merges.txt in Resources */ = {isa = PBXBuildFile; fileRef = 21D7C3672CE1B0D2006515EA /* merges.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		210B9F692CE1794D0062A5F5 /* CLIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLIP.swift; sourceTree = "<group>"; };
+		210B9F6E2CE17EE00062A5F5 /* CLIPTokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLIPTokenizer.swift; sourceTree = "<group>"; };
+		212478C12CE12F8A00D9EF85 /* CLIP_Text_Encoder_s0.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = CLIP_Text_Encoder_s0.mlpackage; sourceTree = "<group>"; };
+		212478C22CE12F8B00D9EF85 /* CLIP_Image_Encoder_s0.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = CLIP_Image_Encoder_s0.mlpackage; sourceTree = "<group>"; };
 		21ADAB372CD199550025A919 /* Moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21ADAB3A2CD199550025A919 /* MomentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsApp.swift; sourceTree = "<group>"; };
 		21ADAB3C2CD199550025A919 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +85,8 @@
 		21ADAB722CD199D30025A919 /* PhotoCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCollectionView.swift; path = "../../../../../Downloads/Capturing Photos.swiftpm/App/PhotoCollectionView.swift"; sourceTree = "<group>"; };
 		21ADAB7C2CD199DE0025A919 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModel.swift; path = "../../../../../Downloads/Capturing Photos.swiftpm/App/DataModel.swift"; sourceTree = "<group>"; };
 		21CAC50F2CD1A70F0096CBCE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		21D7C3652CE1B0CB006515EA /* vocab.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vocab.json; sourceTree = "<group>"; };
+		21D7C3672CE1B0D2006515EA /* merges.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = merges.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D7C3612CE1ABA0006515EA /* Numerics in Frameworks */,
+				21D7C35F2CE1ABA0006515EA /* ComplexModule in Frameworks */,
+				21D7C3632CE1ABA0006515EA /* RealModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +120,7 @@
 		21ADAB2E2CD199550025A919 = {
 			isa = PBXGroup;
 			children = (
+				21D7C3642CE1B055006515EA /* Resources */,
 				21ADAB392CD199550025A919 /* Moments */,
 				21ADAB4A2CD199570025A919 /* MomentsTests */,
 				21ADAB542CD199570025A919 /* MomentsUITests */,
@@ -130,8 +149,12 @@
 				21ADAB662CD199C30025A919 /* Camera.swift */,
 				21ADAB7C2CD199DE0025A919 /* DataModel.swift */,
 				21ADAB702CD199D30025A919 /* PhotoAsset.swift */,
+				210B9F692CE1794D0062A5F5 /* CLIP.swift */,
+				210B9F6E2CE17EE00062A5F5 /* CLIPTokenizer.swift */,
 				21ADAB6A2CD199D30025A919 /* PhotoAssetCollection.swift */,
 				21ADAB6C2CD199D30025A919 /* PhotoCollection.swift */,
+				212478C22CE12F8B00D9EF85 /* CLIP_Image_Encoder_s0.mlpackage */,
+				212478C12CE12F8A00D9EF85 /* CLIP_Text_Encoder_s0.mlpackage */,
 				21ADAB722CD199D30025A919 /* PhotoCollectionView.swift */,
 				21ADAB6B2CD199D30025A919 /* PhotoItemView.swift */,
 				21ADAB6E2CD199D30025A919 /* PhotoLibrary.swift */,
@@ -169,6 +192,15 @@
 			path = MomentsUITests;
 			sourceTree = "<group>";
 		};
+		21D7C3642CE1B055006515EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21D7C3652CE1B0CB006515EA /* vocab.json */,
+				21D7C3672CE1B0D2006515EA /* merges.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,6 +217,11 @@
 			dependencies = (
 			);
 			name = Moments;
+			packageProductDependencies = (
+				21D7C35E2CE1ABA0006515EA /* ComplexModule */,
+				21D7C3602CE1ABA0006515EA /* Numerics */,
+				21D7C3622CE1ABA0006515EA /* RealModule */,
+			);
 			productName = Moments;
 			productReference = 21ADAB372CD199550025A919 /* Moments.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +294,9 @@
 				Base,
 			);
 			mainGroup = 21ADAB2E2CD199550025A919;
+			packageReferences = (
+				21D7C35D2CE1ABA0006515EA /* XCRemoteSwiftPackageReference "swift-numerics" */,
+			);
 			productRefGroup = 21ADAB382CD199550025A919 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -274,7 +314,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				21ADAB422CD199570025A919 /* Preview Assets.xcassets in Resources */,
+				21D7C3662CE1B0CB006515EA /* vocab.json in Resources */,
 				21ADAB3F2CD199570025A919 /* Assets.xcassets in Resources */,
+				21D7C3682CE1B0D2006515EA /* merges.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				212478C32CE12F8B00D9EF85 /* CLIP_Text_Encoder_s0.mlpackage in Sources */,
 				21ADAB672CD199C30025A919 /* Camera.swift in Sources */,
 				21ADAB7A2CD199D30025A919 /* PhotoView.swift in Sources */,
 				21ADAB762CD199D30025A919 /* ViewfinderView.swift in Sources */,
@@ -307,12 +350,15 @@
 				21ADAB7D2CD199DE0025A919 /* DataModel.swift in Sources */,
 				21ADAB732CD199D30025A919 /* PhotoAssetCollection.swift in Sources */,
 				21ADAB3D2CD199550025A919 /* ContentView.swift in Sources */,
+				210B9F6F2CE17EE00062A5F5 /* CLIPTokenizer.swift in Sources */,
 				21ADAB742CD199D30025A919 /* PhotoItemView.swift in Sources */,
 				21ADAB652CD199BB0025A919 /* CachedImageManager.swift in Sources */,
 				21ADAB692CD199C90025A919 /* CameraView.swift in Sources */,
 				21ADAB752CD199D30025A919 /* PhotoCollection.swift in Sources */,
+				210B9F6A2CE1794D0062A5F5 /* CLIP.swift in Sources */,
 				21ADAB792CD199D30025A919 /* PhotoAsset.swift in Sources */,
 				21CAC5102CD1A70F0096CBCE /* HomeView.swift in Sources */,
+				212478C42CE12F8B00D9EF85 /* CLIP_Image_Encoder_s0.mlpackage in Sources */,
 				21ADAB782CD199D30025A919 /* ThumbnailView.swift in Sources */,
 				21ADAB3B2CD199550025A919 /* MomentsApp.swift in Sources */,
 			);
@@ -646,6 +692,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21D7C35D2CE1ABA0006515EA /* XCRemoteSwiftPackageReference "swift-numerics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-numerics.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21D7C35E2CE1ABA0006515EA /* ComplexModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21D7C35D2CE1ABA0006515EA /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = ComplexModule;
+		};
+		21D7C3602CE1ABA0006515EA /* Numerics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21D7C35D2CE1ABA0006515EA /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = Numerics;
+		};
+		21D7C3622CE1ABA0006515EA /* RealModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21D7C35D2CE1ABA0006515EA /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = RealModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 21ADAB2F2CD199550025A919 /* Project object */;
 }

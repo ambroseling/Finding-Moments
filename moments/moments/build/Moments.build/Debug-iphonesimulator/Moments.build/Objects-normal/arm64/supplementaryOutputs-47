@@ -1,0 +1,18 @@
+"/Users/ambroseling/Downloads/Capturing Photos.swiftpm/App/Camera.swift":
+  object: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/Camera.o"
+  dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/Camera.d"
+  swift-dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/Camera.swiftdeps"
+  diagnostics: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/Camera.dia"
+  const-values: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/Camera.swiftconstvalues"
+"/Users/ambroseling/Downloads/Capturing Photos.swiftpm/App/PhotoView.swift":
+  swift-dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/PhotoView.swiftdeps"
+  diagnostics: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/PhotoView.dia"
+  object: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/PhotoView.o"
+  dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/PhotoView.d"
+  const-values: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/PhotoView.swiftconstvalues"
+"/Users/ambroseling/Downloads/Capturing Photos.swiftpm/App/ViewfinderView.swift":
+  object: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/ViewfinderView.o"
+  swift-dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/ViewfinderView.swiftdeps"
+  dependencies: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/ViewfinderView.d"
+  diagnostics: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/ViewfinderView.dia"
+  const-values: "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/build/Moments.build/Debug-iphonesimulator/Moments.build/Objects-normal/arm64/ViewfinderView.swiftconstvalues"

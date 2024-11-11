@@ -1,0 +1,32 @@
+{
+  "source": "/Users/ambroseling/Desktop/Finding-Moments/moments/Moments/Moments/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Moments"
+      },
+      {
+        "comment": "",
+        "key": "We help you find it."
+      },
+      {
+        "comment": "",
+        "key": "Remember the time you shared that coffee with someone special"
+      },
+      {
+        "comment": "",
+        "key": "Or the time you had that dinner with your family"
+      },
+      {
+        "comment": "",
+        "key": "View moments"
+      },
+      {
+        "comment": "",
+        "key": "Create moments"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float16",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 512)",
+        "shortDescription" : "",
+        "shape" : "[1, 512]",
+        "name" : "output_embeddings",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 8,
+    "mlProgramOperationTypeHistogram" : {
+      "Ios17.mul" : 4,
+      "Ios17.reduceArgmax" : 1,
+      "Ios17.reshape" : 8,
+      "Ios16.softmax" : 4,
+      "Ios17.matmul" : 8,
+      "Ios17.maximum" : 1,
+      "Ios17.transpose" : 12,
+      "Ios17.expandDims" : 2,
+      "Select" : 1,
+      "Ios17.add" : 12,
+      "Tile" : 1,
+      "Ios17.sliceByIndex" : 12,
+      "Ios17.gatherNd" : 1,
+      "Ios17.squeeze" : 2,
+      "Ios17.gather" : 1,
+      "Ios17.layerNorm" : 9,
+      "Ios16.gelu" : 6,
+      "Ios17.cast" : 2,
+      "Ios17.conv" : 8,
+      "Ios17.realDiv" : 1,
+      "Ios17.linear" : 17,
+      "Ios17.greaterEqual" : 1,
+      "Stack" : 1,
+      "Ios16.reduceL2Norm" : 1
+    },
+    "computePrecision" : "Mixed (Float16, Int32, UInt16)",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "14.0",
+      "tvOS" : "17.0",
+      "visionOS" : "1.0",
+      "watchOS" : "10.0",
+      "iOS" : "17.0",
+      "macCatalyst" : "17.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.source_dialect" : "TorchScript",
+      "com.github.apple.coremltools.source" : "torch==1.13.1+cu117",
+      "com.github.apple.coremltools.version" : "8.0"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 77)",
+        "shortDescription" : "",
+        "shape" : "[1, 77]",
+        "name" : "input_text",
+        "type" : "MultiArray"
+      }
+    ],
+    "generatedClassName" : "CLIP_Text_Encoder_s0",
+    "method" : "predict"
+  }
+]

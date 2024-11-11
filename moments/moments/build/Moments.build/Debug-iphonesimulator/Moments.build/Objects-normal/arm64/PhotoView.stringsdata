@@ -1,0 +1,20 @@
+{
+  "source": "/Users/ambroseling/Downloads/Capturing Photos.swiftpm/App/PhotoView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Photo"
+      },
+      {
+        "comment": "",
+        "key": "Favorite"
+      },
+      {
+        "comment": "",
+        "key": "Delete"
+      }
+    ]
+  },
+  "version": 1
+}

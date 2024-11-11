@@ -1,0 +1,28 @@
+{
+  "source": "/Users/ambroseling/Downloads/Capturing Photos.swiftpm/App/CameraView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Camera"
+      },
+      {
+        "comment": "",
+        "key": "View Finder"
+      },
+      {
+        "comment": "",
+        "key": "Gallery"
+      },
+      {
+        "comment": "",
+        "key": "Take Photo"
+      },
+      {
+        "comment": "",
+        "key": "Switch Camera"
+      }
+    ]
+  },
+  "version": 1
+}
