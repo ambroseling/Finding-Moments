@@ -14,8 +14,8 @@ export default function HomeScreen() {
           colors={['rgba(74, 144, 226, 0.9)', 'rgba(74, 144, 226, 0.7)']}
           style={styles.headerGradient}>
           <Image
-            source={require('@/assets/images/partial-react-logo.png')}
-            style={styles.reactLogo}
+            source={require('@/assets/images/dreamy-moment.jpg')}
+            style={styles.headerImage}
           />
         </LinearGradient>
       }>
@@ -51,7 +51,7 @@ export default function HomeScreen() {
   );
 }
 
-function FeatureCard({ title, description, icon }) {
+function FeatureCard({ title, description, icon }: { title: string; description: string; icon: string }) {
   return (
     <ThemedView style={styles.card}>
       <ThemedText style={styles.cardIcon}>{icon}</ThemedText>
@@ -72,7 +72,6 @@ const styles = StyleSheet.create({
   headerGradient: {
     height: '100%',
     width: '100%',
-    position: 'absolute',
   },
   welcomeSection: {
     alignItems: 'center',
@@ -114,11 +113,18 @@ const styles = StyleSheet.create({
   cardDescription: {
     opacity: 0.8,
   },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
+  // reactLogo: {
+  //   height: 178,
+  //   width: 290,
+  //   bottom: 0,
+  //   left: 0,
+  //   position: 'absolute',
+  // },
+  headerImage: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
     position: 'absolute',
+    zIndex: -1,
   },
 });
