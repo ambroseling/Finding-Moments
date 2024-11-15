@@ -1,6 +1,6 @@
 import { Image, StyleSheet, Platform } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 
-import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
@@ -8,57 +8,111 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
+      headerBackgroundColor={{ light: '#4A90E2', dark: '#2C3E50' }}
       headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
+        <LinearGradient
+          colors={['rgba(74, 144, 226, 0.9)', 'rgba(74, 144, 226, 0.7)']}
+          style={styles.headerGradient}>
+          <Image
+            source={require('@/assets/images/partial-react-logo.png')}
+            style={styles.reactLogo}
+          />
+        </LinearGradient>
       }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-        <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
+      <ThemedView style={styles.container}>
+        <ThemedView style={styles.welcomeSection}>
+          <ThemedText type="title" style={styles.mainTitle}>
+            Finding Moments
+          </ThemedText>
+          <ThemedText style={styles.subtitle}>
+            Capture and share your precious memories
+          </ThemedText>
+        </ThemedView>
+
+        <ThemedView style={styles.featuresContainer}>
+          <FeatureCard
+            title="Create Stories"
+            description="Share your daily moments with beautiful stories"
+            icon="📸"
+          />
+          <FeatureCard
+            title="Connect"
+            description="Follow friends and family to stay updated"
+            icon="👥"
+          />
+          <FeatureCard
+            title="Discover"
+            description="Explore trending moments around you"
+            icon="🌎"
+          />
+        </ThemedView>
       </ThemedView>
     </ParallaxScrollView>
   );
 }
 
+function FeatureCard({ title, description, icon }) {
+  return (
+    <ThemedView style={styles.card}>
+      <ThemedText style={styles.cardIcon}>{icon}</ThemedText>
+      <ThemedText type="subtitle" style={styles.cardTitle}>
+        {title}
+      </ThemedText>
+      <ThemedText style={styles.cardDescription}>
+        {description}
+      </ThemedText>
+    </ThemedView>
+  );
+}
+
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
+  container: {
+    padding: 16,
   },
-  stepContainer: {
-    gap: 8,
+  headerGradient: {
+    height: '100%',
+    width: '100%',
+    position: 'absolute',
+  },
+  welcomeSection: {
+    alignItems: 'center',
+    marginVertical: 24,
+  },
+  mainTitle: {
+    fontSize: 32,
     marginBottom: 8,
+  },
+  subtitle: {
+    fontSize: 16,
+    opacity: 0.8,
+    textAlign: 'center',
+  },
+  featuresContainer: {
+    gap: 16,
+  },
+  card: {
+    padding: 20,
+    borderRadius: 12,
+    backgroundColor: Platform.select({
+      ios: 'rgba(255, 255, 255, 0.1)',
+      android: 'rgba(255, 255, 255, 0.1)',
+      web: 'rgba(255, 255, 255, 0.1)',
+    }),
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 3,
+  },
+  cardIcon: {
+    fontSize: 32,
+    marginBottom: 12,
+  },
+  cardTitle: {
+    marginBottom: 8,
+  },
+  cardDescription: {
+    opacity: 0.8,
   },
   reactLogo: {
     height: 178,
